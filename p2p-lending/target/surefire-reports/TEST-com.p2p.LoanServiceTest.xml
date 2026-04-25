@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.p2p.LoanServiceTest" time="0.092" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.p2p.LoanServiceTest" time="0.693" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\github\Tubes-Java-LuisDanangPambudi\p2p-lending\target\test-classes;D:\github\Tubes-Java-LuisDanangPambudi\p2p-lending\target\classes;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\luis\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\luis\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\luis\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\luis\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="java.class.path" value="D:\github\Tubes-Java-LuisDanangPambudi\p2p-lending\target\test-classes;D:\github\Tubes-Java-LuisDanangPambudi\p2p-lending\target\classes;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\luis\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\luis\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\luis\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\luis\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\luis\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\luis\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\luis\AppData\Local\Temp\surefire6507465693519963896\surefirebooter-20260425063638592_3.jar C:\Users\luis\AppData\Local\Temp\surefire6507465693519963896 2026-04-25T06-36-38_389-jvmRun1 surefire-20260425063638592_1tmp surefire_0-20260425063638592_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\luis\AppData\Local\Temp\surefire1608457325426013398\surefirebooter-20260425070830890_3.jar C:\Users\luis\AppData\Local\Temp\surefire1608457325426013398 2026-04-25T07-08-30_665-jvmRun1 surefire-20260425070830890_1tmp surefire_0-20260425070830890_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\github\Tubes-Java-LuisDanangPambudi\p2p-lending\target\test-classes;D:\github\Tubes-Java-LuisDanangPambudi\p2p-lending\target\classes;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\luis\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\luis\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\luis\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\luis\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="surefire.test.class.path" value="D:\github\Tubes-Java-LuisDanangPambudi\p2p-lending\target\test-classes;D:\github\Tubes-Java-LuisDanangPambudi\p2p-lending\target\classes;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\luis\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\luis\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\luis\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\luis\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\luis\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\luis\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\luis\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\luis"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\luis\AppData\Local\Temp\surefire6507465693519963896\surefirebooter-20260425063638592_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\luis\AppData\Local\Temp\surefire1608457325426013398\surefirebooter-20260425070830890_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS-69"/>
@@ -59,8 +59,32 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="shouldRejectLoanWhenCreditScoreLow" classname="com.p2p.LoanServiceTest" time="0.056"/>
-  <testcase name="shouldApproveLoanWhenCreditScoreHigh" classname="com.p2p.LoanServiceTest" time="0.001"/>
-  <testcase name="shouldRejectLoanWhenAmountIsZeroOrNegative" classname="com.p2p.LoanServiceTest" time="0.003"/>
-  <testcase name="shouldRejectLoanWhenBorrowerNotVerified" classname="com.p2p.LoanServiceTest" time="0.001"/>
+  <testcase name="shouldRejectLoanWhenCreditScoreLow" classname="com.p2p.LoanServiceTest" time="0.073">
+    <system-out><![CDATA[07:08:33 [INFO ] LoanServiceTest - TC-04: Menguji penolakan loan jika credit score rendah
+07:08:33 [INFO ] LoanService - createLoan dipanggil - verified: true, creditScore: 500, amount: 1000
+07:08:33 [WARN ] LoanService - Loan REJECTED - credit score terlalu rendah: 500
+07:08:33 [INFO ] LoanServiceTest - TC-04: PASSED - Status loan: REJECTED
+]]></system-out>
+  </testcase>
+  <testcase name="shouldApproveLoanWhenCreditScoreHigh" classname="com.p2p.LoanServiceTest" time="0.002">
+    <system-out><![CDATA[07:08:33 [INFO ] LoanServiceTest - TC-03: Menguji persetujuan loan jika credit score tinggi
+07:08:33 [INFO ] LoanService - createLoan dipanggil - verified: true, creditScore: 700, amount: 1000
+07:08:33 [INFO ] LoanService - Loan APPROVED - credit score: 700
+07:08:33 [INFO ] LoanServiceTest - TC-03: PASSED - Status loan: APPROVED
+]]></system-out>
+  </testcase>
+  <testcase name="shouldRejectLoanWhenAmountIsZeroOrNegative" classname="com.p2p.LoanServiceTest" time="0.006">
+    <system-out><![CDATA[07:08:33 [INFO ] LoanServiceTest - TC-02: Menguji penolakan loan jika amount <= 0
+07:08:33 [INFO ] LoanService - createLoan dipanggil - verified: true, creditScore: 700, amount: 0
+07:08:33 [ERROR] LoanService - Amount tidak valid: 0
+07:08:33 [INFO ] LoanServiceTest - TC-02: PASSED - Exception berhasil dilempar untuk amount 0
+]]></system-out>
+  </testcase>
+  <testcase name="shouldRejectLoanWhenBorrowerNotVerified" classname="com.p2p.LoanServiceTest" time="0.003">
+    <system-out><![CDATA[07:08:33 [INFO ] LoanServiceTest - TC-01: Menguji penolakan loan jika borrower tidak terverifikasi
+07:08:33 [INFO ] LoanService - createLoan dipanggil - verified: false, creditScore: 700, amount: 1000
+07:08:33 [ERROR] LoanService - Borrower tidak terverifikasi (KYC gagal)
+07:08:33 [INFO ] LoanServiceTest - TC-01: PASSED - Exception berhasil dilempar
+]]></system-out>
+  </testcase>
 </testsuite>
